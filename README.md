@@ -1,2 +1,2 @@
 # indeed-job-extractor
-A quick flask app to download indeed jobs into excel sheet
+A quick flask app that automates and downloads indeed jobs into excel sheet
