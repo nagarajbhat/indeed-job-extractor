@@ -42,7 +42,6 @@ def my_form_post():
 	output = BytesIO()
 
 	#to download excel
-	#with BytesIO() as b:
 	#Use the StringIO object as the filehandle.
 	writer = pd.ExcelWriter(output, engine='openpyxl')
 	df.to_excel(writer, sheet_name='jobs_indeed')
